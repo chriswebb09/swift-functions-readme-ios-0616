@@ -28,6 +28,10 @@ func sayHelloToCat(catName: String) {
     print("Hello, \(catName), why do you sleep so much?")
 }
 
+func sayHelloToMe(me: String) {
+    print("Hello, \(me)")
+}
+
 sayHelloToCat("Mittens")
 
 let catFriend = "Socks"
